@@ -1,0 +1,79 @@
+#title{
+  display: flex;
+  justify-content: center;
+}
+h2{
+  display: flex;
+  justify-content: center; 
+}
+#cta_button{
+  display: flex;
+  justify-content: center;
+ 
+  margin: 0px 300px 0 300px ;
+  padding: 20px 0 200px 0;
+ 
+ 
+}
+#btn_rock{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 150px; 
+  height: 150px; 
+  background-image: url(rock.jpeg); 
+  color: #fff; 
+  border: none;
+  cursor: pointer;
+  margin: 30px;
+  background-size: cover;
+}
+#btn_paper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 150px; /* Ajusta el ancho a tu preferencia */
+  height: 150px; /* Ajusta la altura a tu preferencia */
+  background-image: url(paper.png); /* Color de fondo del botón */
+  color: #fff; /* Color del texto */
+  border: none;
+  cursor: pointer;
+  margin: 30px;
+  background-size: cover;
+}
+#btn_scissor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 150px; /* Ajusta el ancho a tu preferencia */
+  height: 150px; /* Ajusta la altura a tu preferencia */
+  background-image: url(sccisor.jpeg); /* Color de fondo del botón */
+  color: #fff; /* Color del texto */
+  border: none;
+  cursor: pointer;
+  margin: 30px;
+  background-size: cover;
+}
+span{
+  color: black;
+  font-size: 15px;
+}
+
+.result{
+  margin:0 200px 0 0;
+  font-size: 25px;
+}
+
+.player{
+  margin: 0 50px 0 0;
+  font-size: 20px;
+}
+
+.comp{
+  margin: 0 50px 0 0;
+  font-size: 20px;
+}
+
